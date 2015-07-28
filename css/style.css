@@ -269,17 +269,29 @@ article a:hover {
   -ms-transition: all 0.4s linear;
   transition: all 0.4s linear; }
 
-html {
-  background-color: #363636; }
+header img {
+  max-width: 30px;
+  max-height: 30px;
+  opacity: 0.1; }
+
+nav {
+  float: right; }
+  nav ul {
+    margin: 30px; }
+    nav ul li {
+      float: right;
+      padding: 5px; }
 
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 175px;
-  background-color: #FFFFFF;
-  margin: 15px;
-  border-radius: 15px; }
+  background-color: #FFFFFF; }
+  body p {
+    margin-left: 30px; }
+  body canvas {
+    margin-left: 30px; }
 
 h3 {
   padding-top: 35px;
@@ -290,20 +302,23 @@ h3 {
   margin: 0px; }
 
 .title {
+  float: left;
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 15px; }
 
 header h2 {
   padding-top: 175px;
-  padding-bottom: 45px; }
+  padding-bottom: 45px;
+  clear: both; }
 
 header p {
   padding-bottom: 45px; }
 
 canvas {
   max-width: 70%;
-  margin: 0px auto; }
+  margin: 0px auto;
+  clear: both; }
 
 header h2, header p, section article {
   max-width: 70%;
